@@ -1,0 +1,18 @@
+
+<html>
+<head>
+<script>
+  const a=[10,20,30,40];
+  const b=[50,60,70,80];
+   document.write("join");
+   document.write(a.join(" and ")+"<br>");
+   document.write("Concatenation");
+   document.write(a.concat(b)+"<br>");
+   document.write("Sorting");
+   document.write(a.function(a,b) { return a-b});
+   
+   
+</script>
+
+</head>
+</html>
