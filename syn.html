@@ -1,0 +1,28 @@
+<html>
+<head>
+<body>
+ <script>
+ var a,b;
+    a=parseInt(window.prompt("enter a","0"));
+    b=parseInt(window.prompt("enter b","0"));
+  function f1(x,y)
+ {
+    document.write(x,"   ",y);
+    f2(x+1,y+1);
+ }
+  function f2(c,d)
+ {      
+    document.write("<br>",c*d); 
+    f3(c*d);    
+ }
+  function f3(x)
+
+ {
+      document.write("<br>",x*x); 
+ }
+ 
+ f1(a,b);
+ </script>
+</body>
+</head>
+</html>
